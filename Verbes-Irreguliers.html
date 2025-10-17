@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anglais</title>
+  <link rel="stylesheet" href="Style_Anglais.css" />
+</head>
+<body>
+  <div id="app">
+    <button type="button" class="toggle-btn" id="toggle-mode">🌙</button>
+    <h1>Entraînement Verbes Irréguliers</h1>
+    <div id="controls">
+      <label for="mode">Mode :</label>
+      <select id="mode">
+        <option value="preterit">Prétérit</option>
+        <option value="participe-passe">Participe passé</option>
+        <option value="fr-en">Traduction</option>
+      </select>
+      <button id="start">Commencer</button>
+    </div>
+    <div id="game">
+      <div id="word-stats" class="hidden"></div>
+      <div id="quiz" class="hidden">
+        <p id="question"></p>
+        <input type="text" id="answer" placeholder="Votre réponse..." autofocus />
+        <button id="validate">Valider</button>
+        <p id="feedback"></p>
+      </div>
+    </div>
+  </div>
+    <div>
+      <a href="Index.html" class="back-button">🏠</a>
+    </div> 
+</div>
+  </div>
+    <div id="onglet-anglais">
+    <li><a href="Anglais.html">Vocabulaire Hippies et Punks</a></li>
+    <li><a href="Verbes-Irreguliers.html">Verbes Irréguliers</a></li>
+  </div>
+</div> 
+  <script src="Verbes-Irreguliers.js"></script>
+</body>
+</html>
